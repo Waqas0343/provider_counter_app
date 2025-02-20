@@ -10,7 +10,9 @@ class CounterScreen extends StatelessWidget {
     final counterProvider = Provider.of<CounterProvider>(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text("Provider Counter App")),
+      appBar: AppBar(title: Text("Provider Counter App"),
+      backgroundColor: Colors.orange,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
